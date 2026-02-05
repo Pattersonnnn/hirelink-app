@@ -57,7 +57,6 @@ export default function Admin() {
       <div className="admin-wrapper">
         <h2>Recruiter Dashboard</h2>
 
-        {/* PIPELINE */}
         <div className="admin-pipeline">
           {stages.map((stage) => (
             <div className="pipeline-column" key={stage}>
@@ -81,7 +80,6 @@ export default function Admin() {
           ))}
         </div>
 
-        {/* REVIEW PANEL */}
         {selectedApp ? (
           <div className="admin-review">
             <h3>Candidate Review</h3>
